@@ -1,0 +1,101 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "uni-app",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "\ue534",
+                                "fontSrc" : "/static/uni.ttf",
+                                "fontSize" : "22px",
+                                "color" : "#999999"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/about/about",
+            "style" : {}
+        },
+        {
+            "path" : "pages/common/test/test",
+            "style" : {}
+        },
+        {
+            "path" : "pages/common/testLess/testLess",
+            "style" : {}
+        },
+        {
+            "path" : "pages/common/testImg/testImg",
+            "style" : {}
+        },
+        {
+            "path" : "pages/common/testView/testView",
+            "style" : {}
+        },
+        {
+            "path" : "pages/template/load-more/load-more",
+            "style" : {
+                "navigationBarTitleText" : "商城"
+            }
+        },
+        {
+            "path" : "pages/template/productDetail/productDetail",
+            "style" : {
+                "navigationBarTitleText" : "商品详情"
+            }
+        },
+        {
+            "path" : "pages/template/payment/payment",
+            "style" : {}
+        },
+        {
+            "path" : "pages/personalCenter/personalCenter",
+            "style" : {
+                "navigationBarTitleText" : "个人中心"
+            }
+        },
+        {
+            "path" : "pages/template/cartList/cartList",
+            "style" : {}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "tabBar" : {
+        "color" : "#7A7E83",
+        "selectedColor" : "#007AFF",
+        "borderStyle" : "black",
+        "backgroundColor" : "#F8F8F8",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/aliiconfont/home.png",
+                "selectedIconPath" : "static/aliiconfont/homeHL.png",
+                "text" : "首页"
+            }, 
+            {
+                "pagePath" : "pages/template/load-more/load-more",
+                "iconPath" : "static/aliiconfont/shopping.png",
+                "selectedIconPath" : "static/aliiconfont/shoppingHL.png",
+                "text" : "商城"
+            },
+            {
+                "pagePath" : "pages/personalCenter/personalCenter",
+                "iconPath" : "static/aliiconfont/user.png",
+                "selectedIconPath" : "static/aliiconfont/userHL.png",
+                "text" : "个人中心"
+            }
+        ]
+    }
+}
