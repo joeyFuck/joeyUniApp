@@ -1,2 +1,2 @@
 # joeyUniApp
-for uni-app
+for uni-app.
